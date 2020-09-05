@@ -28,7 +28,7 @@ namespace FlowerCore
     {
         Red,
         Green,
-        Blue, 
+        Blue,
         White
     }
 }

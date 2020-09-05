@@ -9,7 +9,7 @@ namespace BouquetCore
 {
     public class Bouquet
     {
-        private static List <Flower> usersBouquet = new List <Flower>();
+        private static List<Flower> usersBouquet = new List<Flower>();
 
         public static double BouquetPrice { get; private set; } = 0;
 
@@ -19,11 +19,11 @@ namespace BouquetCore
 
             BouquetPrice += flower.Price;
         }
-        public static string [] ShowAllFlowers()
+        public static string[] ShowAllFlowers()
         {
             string[] FlowersInfo = new string[usersBouquet.Count];
 
-            for(int i=0; i< usersBouquet.Count; i++)
+            for (int i = 0; i < usersBouquet.Count; i++)
             {
                 FlowersInfo[i] = usersBouquet[i].ToString();
             }
